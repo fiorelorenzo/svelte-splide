@@ -1,0 +1,40 @@
+{
+  "name": "@fiorelorenzo/svelte-splide",
+  "version": "1.0.0",
+  "description": "The Splide component for Svelte.",
+  "keywords": [
+    "splide",
+    "slider",
+    "carousel",
+    "slideshow",
+    "lightweight",
+    "touch",
+    "responsive",
+    "svelte",
+    "sveltejs",
+    "svelte-components"
+  ],
+  "author": {
+    "name": "Lorenzo Fiore",
+    "email": "fiorelorenzo.fl@gmail.com",
+    "url": "https://github.com/fiorelorenzo"
+  },
+  "homepage": "https://github.com/fiorelorenzo/svelte-splide",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiorelorenzo/svelte-splide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fiorelorenzo/svelte-splide/issues"
+  },
+  "license": "MIT",
+  "browser": "src/index.js",
+  "deprecated": false,
+  "bundledDependencies": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.13"
+  }
+}
