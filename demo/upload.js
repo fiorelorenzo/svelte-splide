@@ -19,7 +19,7 @@ async function upload() {
         await runCommand("git", ["checkout", "gh-pages"]);
         await runCommand("git", ["pull"]);
         await runCommand("git", ["add", "-f", "build"]);
-        await runCommand("git", ["commit", "-m", "Auto publish"]);
+        await runCommand("git", ["commit", "-m", '\"Auto publish\"']);
         await runCommand("git", ["push"]);
         await runCommand("git", ["checkout", "master"]);
 
