@@ -13,7 +13,7 @@
 ## Installation
 ### Get the latest version from NPM:
 ```bash
-npm install svelte-splide
+npm install @fiorelorenzo/svelte-splide
 ```
 
 ## Import

@@ -1,6 +1,6 @@
 <script>
   import "@splidejs/splide/dist/css/splide.min.css";
-  import { Splide, SplideSlide } from "svelte-splide";
+  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
 
   const options = {
     arrows: true,
