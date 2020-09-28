@@ -1,5 +1,5 @@
 {
-  "name": "@fiorelorenzo/svelte-splide",
+  "name": "svelte-splide",
   "version": "1.0.0",
   "description": "The Splide component for Svelte.",
   "keywords": [
@@ -32,9 +32,6 @@
   "svelte": "src/index.js",
   "deprecated": false,
   "bundledDependencies": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@splidejs/splide": "^2.4.13"
   },

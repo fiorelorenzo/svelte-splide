@@ -13,7 +13,7 @@
 ## Installation
 ### Get the latest version from NPM:
 ```bash
-npm install @fiorelorenzo/svelte-splide
+npm install svelte-splide
 ```
 
 ## Import
@@ -22,7 +22,7 @@ npm install @fiorelorenzo/svelte-splide
 <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
 ```
 
-### Or if you are using [PostCss](https://github.com/postcss/postcss):
+### Or if you are using [PostCSS](https://github.com/postcss/postcss):
 ```javascript
 import "@splidejs/splide/dist/css/splide.min.css";
 ```
@@ -31,7 +31,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 ### In your Svelte component:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 </script>
 
 <Splide>
@@ -51,7 +51,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 ### You can pass all base Splide options using the `options` prop:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 
   const options = {
     arrows: true,
@@ -78,7 +78,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 ### As well as extensions and transition:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 
   let extensions = {};
   let transition = null;
@@ -100,7 +100,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 ### To get the Splide instance, bind to the `splide` prop:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 
   let splide;
 </script>
@@ -121,7 +121,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 ### You can also bind to the current index:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 
   let currentIndex;
 </script>
@@ -147,7 +147,7 @@ In addition to every base Splide feature, svelte-splide supports:
 ### Hiding arrows automatically:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 </script>
 
 <Splide autoHideArrows autoHideArrowsOffset={0}>
@@ -166,7 +166,7 @@ In addition to every base Splide feature, svelte-splide supports:
 ### Group syncing:
 ```html
 <script>
-  import { Splide, SplideSlide } from "@fiorelorenzo/svelte-splide";
+  import { Splide, SplideSlide } from "svelte-splide";
 </script>
 
 <Splide group="demo">
@@ -208,7 +208,3 @@ In addition to every base Splide feature, svelte-splide supports:
 #### Splides in the same group will move together. You can have as many groups as you like.
 
 #### **NOTE:** splides in the same group must have the same number of slides.
-
-## License
-Svelte Splide is released under the MIT license.  
-© 2020 Lorenzo Fiore
