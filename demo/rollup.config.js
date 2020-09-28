@@ -64,7 +64,7 @@ export default async CLIArgs => {
 	return {
 		input: 'src/main.js',
 		output: {
-			sourcemap: true,
+			sourcemap: !production,
 			format: 'iife',
 			name: 'app',
 			dir: 'build',
@@ -92,7 +92,7 @@ export default async CLIArgs => {
 			postcss({
 				extract: true,
 				minimize: production,
-				sourceMap: true,
+				sourceMap: !production,
 				plugins: []
 			}),
 

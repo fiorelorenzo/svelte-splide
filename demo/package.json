@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build:local": "rollup -c",
-    "build:prod": "rollup -c --configUrlPrefix=svelte-splide",
+    "build:prod": "rollup -c --configUrlPrefix=/svelte-splide",
     "dev": "rollup -c -w",
     "start": "sirv build -s"
   },
