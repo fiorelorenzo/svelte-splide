@@ -10,6 +10,9 @@
 # Svelte Splide
 **Svelte Splide is the [Splide](https://github.com/Splidejs/splide) component for [Svelte](https://svelte.dev/)**
 
+## Demo
+### You can test the demo [here](https://fiorelorenzo.github.io/svelte-splide/).
+
 ## Installation
 ### Get the latest version from NPM:
 ```bash
