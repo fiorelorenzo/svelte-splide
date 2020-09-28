@@ -33,7 +33,7 @@
   "deprecated": false,
   "bundledDependencies": false,
   "dependencies": {
-    "@splidejs/splide": "^2.4.13"
+    "@splidejs/splide": "^2.4.14"
   },
   "devDependencies": {
     "svelte": "^3.28.0"
