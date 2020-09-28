@@ -59,7 +59,7 @@
   }
 
   onMount(() => {
-    splide = new Splide.default(element, options);
+    splide = new Splide(element, options);
 
     splide.on("move.svelte-splide", (newIndex, oldIndex, destIndex) => {
       currentIndex = splide.is("loop") ? destIndex : newIndex;

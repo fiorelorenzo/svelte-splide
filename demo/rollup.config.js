@@ -47,8 +47,8 @@ export default async CLIArgs => {
 		<meta name='viewport' content='width=device-width,initial-scale=1'>
 		<title>Svelte Splide demo</title>
 
-		<link rel='icon' type='image/png' href='"${urlPrefix || ""}/favicon.png'>
-		<link rel='stylesheet' href='"${urlPrefix || ""}/global.css'>
+		<link rel='icon' type='image/png' href='${urlPrefix || ""}/favicon.png'>
+		<link rel='stylesheet' href='${urlPrefix || ""}/global.css'>
 		${css}
 
 		${scripts}
@@ -115,7 +115,7 @@ export default async CLIArgs => {
 
 			// Watch the `public` directory and refresh the
 			// browser on changes when not in production
-			!production && livereload('public'),
+			!production && livereload('build'),
 
 			// If we're building for production (npm run build
 			// instead of npm run dev), minify

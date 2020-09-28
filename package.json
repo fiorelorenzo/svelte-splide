@@ -29,6 +29,7 @@
   },
   "license": "MIT",
   "browser": "src/index.js",
+  "svelte": "src/index.js",
   "deprecated": false,
   "bundledDependencies": false,
   "publishConfig": {
@@ -36,5 +37,8 @@
   },
   "dependencies": {
     "@splidejs/splide": "^2.4.13"
+  },
+  "devDependencies": {
+    "svelte": "^3.28.0"
   }
 }
