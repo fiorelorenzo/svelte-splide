@@ -16,8 +16,8 @@
 
   let element;
 
-  $: if (options) {
-    splide && splide.refresh();
+  $: if (splide && options) {
+    splide.options = options;
   }
 
   $: if (splide && options && options.arrows != false && autoHideArrows) {
