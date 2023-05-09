@@ -7,6 +7,10 @@
     </a>
 </p>
 
+# DEPRECATED - Use [@splidejs/svelte-splide](https://github.com/Splidejs/svelte-splide) instead
+
+**Svelte Splide is the [Splide](https://github.com/Splidejs/splide) component for [Svelte](https://svelte.dev/)**
+
 # Svelte Splide
 **Svelte Splide is the [Splide](https://github.com/Splidejs/splide) component for [Svelte](https://svelte.dev/)**
 
